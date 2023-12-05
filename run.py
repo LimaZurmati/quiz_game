@@ -29,7 +29,10 @@ for question in questions:
     print(question)
 
     for option in options[question_num]:
-        print(option)
+        print(option)\
+    
+guess = input("Enter A,B,C,D").upper()
+gusses.append(guess)
 
     question_num += 1
 
