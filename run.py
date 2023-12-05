@@ -20,13 +20,16 @@ options = (("A.abilty","B.disability","C.weak","D.strong"),
            ("A.ugly","B.pretty","C.handsome","D.none"))
 
 answers = ("A","C","D","B")
-
+question_num = 0
 gusses = []
 
 for question in questions:
     print("*********************************")
     print("---------------------------------")
     print(question)
+
     for option in options[question_num]:
         print(option)
+
+    question_num += 1
 
