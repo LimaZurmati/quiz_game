@@ -18,3 +18,5 @@ options = (("A.abilty","B.disability","C.weak","D.strong"),
            ("A.care","B.careless","C.notice","D.A and B"),
            ("A.smart","B.clever","C.lazy","D.A and C"),
            ("A.ugly","B.pretty","C.handsome","D.none"))
+
+answers = ("A","C","D","B")
