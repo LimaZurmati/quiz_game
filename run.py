@@ -1,11 +1,5 @@
 print("Wellcome to quiz game !!")
-score = 0
-question_num = 0
 
-plying = input('Do you want to play ?').lower()
-
-if plying == "yes":
-    question_num += 1
 
 questions = ("What is another word for 'capability'? ",
              "What is the synonym of the word 'suitable'? ",
@@ -20,8 +14,9 @@ options = (("A.abilty","B.disability","C.weak","D.strong"),
            ("A.ugly","B.pretty","C.handsome","D.none"))
 
 answers = ("A","C","D","B")
-question_num = 0
 gusses = []
+score = 0
+question_num = 0
 
 for question in questions:
     print("*********************************")
@@ -29,10 +24,17 @@ for question in questions:
     print(question)
 
     for option in options[question_num]:
-        print(option)\
+        print(option)
     
-guess = input("Enter A,B,C,D").upper()
-gusses.append(guess)
+    guess = input("Enter (A,B,C,D):").upper()
+    gusses.append(guess)
+
+    if guess == answers[question_num]:
+       score += 1
+       print('Correct! you got 1 point')
+    else:
+       print("Incorrect!")
+       print(f"{answers[question_num]} is the correct answer!")
 
     question_num += 1
 
