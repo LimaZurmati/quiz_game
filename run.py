@@ -20,3 +20,5 @@ options = (("A.abilty","B.disability","C.weak","D.strong"),
            ("A.ugly","B.pretty","C.handsome","D.none"))
 
 answers = ("A","C","D","B")
+
+gusses = []
