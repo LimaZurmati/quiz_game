@@ -45,8 +45,23 @@ for answer in answers:
     print(answer, end=" ")
 print()
 
+
 print("gusses: ", end="")
 for guess in gusses:
     print(guess, end=" ")
 print()
+
+
+#score
+try:
+
+    percentage = (score*100)/question_num
+
+except ZeroDivisionError:
+    print('0% questions are correct')
+
+print(f'{percentage}% questions are correct!')
+
+
+
 
