@@ -24,7 +24,15 @@ for question in questions:
     for option in options[question_num]:
         print(option)
     
-    guess = input("Enter (A,B,C,D):").upper()
+# User inputs
+    valid_characters = 'A,B,C,D'
+
+
+    while True:
+        guess = input("Enter (A,B,C,D)  --->").upper()
+    if all(char in valid_characters for char in guess):
+        break
+        print("That's invalid, please try again.")
     gusses.append(guess)
 
     if guess == answers[question_num]:
@@ -61,7 +69,3 @@ except ZeroDivisionError:
     print('0% questions are correct')
 
 print(f'{percentage}% questions are correct!')
-
-
-
-
