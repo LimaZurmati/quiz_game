@@ -17,22 +17,22 @@ score = 0
 question_num = 0
 
 for question in questions:
-    print("*********************************")
+    print("***********")
     print("---------------------------------")
     print(question)
 
     for option in options[question_num]:
         print(option)
     
-# User inputs
-    valid_characters = 'A,B,C,D'
+    
+    while(True):
+        guess =    guess = input("Enter (A,B,C,D)  --->").upper()
+        if guess in "A-B-C-D":
+            break
+        else:
+            print('INVALID! Please add A,B,C,D')    
 
-
-    while True:
-        guess = input("Enter (A,B,C,D)  --->").upper()
-    if all(char in valid_characters for char in guess):
-        break
-        print("That's invalid, please try again.")
+    
     gusses.append(guess)
 
     if guess == answers[question_num]:
@@ -69,3 +69,5 @@ except ZeroDivisionError:
     print('0% questions are correct')
 
 print(f'{percentage}% questions are correct!')
+print("----------------------------------")
+print("End of the Quiz <3)")

@@ -1,32 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+# Quiz_Game
+![CI logo](/assets/images/game.PNG)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **March 14, 2023**
+Guiz_Game is for english learner they can enhance  vocabulary By this App. it is simple and user friendly. also it shows they correct answers and score how many question they have gueessed is correct. 
 
-## Reminders
+The deployed project live link is [HERE](https://quiz_game.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+## Contents
 
-## Creating the Heroku app
+- [Introduction](#introduction)
+- [Project](#project)
+  - [User goals:](#user-goals)
+  - [Site owner goals](#site-owner-goals)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+  - [Heroku](#heroku)
+  - [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#branching-the-github-repository-using-github-desktop-and-visual-studio-code)
+- [Bugs](#bugs)
+- [Credits](#credits)
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
 
-1. `heroku/python`
-2. `heroku/nodejs`
-
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
-
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
-
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
----
-
-Happy coding!
