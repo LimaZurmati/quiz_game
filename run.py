@@ -70,4 +70,4 @@ except ZeroDivisionError:
 
 print(f'{percentage}% questions are correct!')
 print("----------------------------------")
-print("End of the Quiz <3)")
+print("End of the Quiz <3")
