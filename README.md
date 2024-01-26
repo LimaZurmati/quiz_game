@@ -1,24 +1,11 @@
 
 # Quiz_Game
-![CI logo](/assets/images/game.PNG)
-![CI logo](/assets/images/outcome.PNG)
+Guiz_Game is for english learners they can enhance  vocabulary by this App. it is simple to use. also it shows they correct answers and score how many questions they have gueessed is correct. 
 
-Guiz_Game is for english learner they can enhance  vocabulary By this App. it is simple and user friendly. also it shows they correct answers and score how many question they have gueessed is correct. 
+The deployed project live link is [HERE](https://online-quiz-3a836d46c6c0.herokuapp.com/) 
 
-The deployed project live link is [HERE](https://quiz_game.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
-
-## Contents
-
-- [Introduction](#introduction)
-- [Project](#project)
-  - [User goals:](#user-goals)
-  - [Site owner goals](#site-owner-goals)
-- [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
-  - [Heroku](#heroku)
-  - [Branching the GitHub Repository using GitHub Desktop and Visual Studio Code](#branching-the-github-repository-using-github-desktop-and-visual-studio-code)
-- [Bugs](#bugs)
-- [Credits](#credits)
+![CI logo](/assets/images/Gameres.PNG)
+ 
 
 ## Introduction
 This App is for english learner to improve their vocabulary. Also it shows that the wrords that user guessed are correct or Not.
@@ -30,15 +17,35 @@ The aim of this project is to:
 - To enhance learner vocabulary.
 - Esay way to learn english
 
-## Features
+# Features
+## Existing Features
 
 
-### shows the correct answers
-This feature gives the users to understand their mistakes. 
+-  Shows the correct answers
+- Shows the incorrect ansswers
+- Input validation 
+  - You  must enter A,B,C,D
+- This feature gives the users to understand their mistakes. 
+![CI logo](/assets/images/fe.PNG)
+
+
+- Shows score at the end of game
+
+
+![CI logo](/assets/images/f2.PNG)
+
+
 
 ## Future Updates
 
 The next update of the app will include more words and with articles that words uesd in. also want set time 30 sec must answer the question.
+# Testing
+ I have manually tasted ths project by doing the following:
+ - passed the code througgh PEP8 inter and confirmed there are no problems
+ ## Validator Testing
+ - PEP8 No errors were returned
+ ## Bugs
+ - No bugs
 
 ## Deployment
 
@@ -59,4 +66,5 @@ The Application has been deployed from GitHub to Heroku by following the steps:
 
 
 ## Credits
-- youtube and code institute
+- Code Institute for the deployment terminal
+-   Youtube
