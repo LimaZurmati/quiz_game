@@ -1,5 +1,5 @@
 
-# Corri Construction Company - Contractor Page
+# Quiz_Game_APP
 ![CCCCP header](/assets/images/quize_game.PNG)
 
 A Quiz_Game is a form of game or mind sport in which players attempt to answer questions correctly on several specific English words. Quiz game can be used as a brief assessment in education and similar fields to measure growth in knowledge, abilities, and skills, or simply as a hobby to improve english vocabulary.
@@ -86,6 +86,7 @@ I have tested this project by doing the following :
 - Passed the code through a PEP8 linter and confirmed there is no problems.
 
 ![Check Result](/assets/images/testing.PNG)
+[here - TESTING]()
 
 ## Bugs
 
