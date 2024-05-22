@@ -85,8 +85,8 @@ The next update of the app will include more words and with articles that words 
 I have tested this project by doing the following :
 - Passed the code through a PEP8 linter and confirmed there is no problems.
 
-![Check Result](/assets/images/testing.PNG)
-[here - TESTING]()
+![Check Result](/assets/images/Testing2.PNG)
+[here - TESTING](https://github.com/LimaZurmati/quiz_game/blob/main/TESTING.md)
 
 ## Bugs
 
