@@ -21,7 +21,6 @@ The deployed project live link is [HERE](https://online-quiz-3a836d46c6c0.heroku
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
 - [Future Updates](#future-updates)  
-- [Validation](#validation)
 - [Deployment](#deployment)
   - [Heroku](#heroku)
   - [Branching the GitHub Repository using GitHub Desktop and Gitpod](#branching-the-github-repository-using-github-desktop-and-Gitpod)
@@ -50,7 +49,10 @@ Allowing users to participate in quiz, answer questions on various words, and re
 Provide a App that is easy to use.
 Online quiz makers offer the flexibility to create personalized and adaptive learning experiences tailored to individual students
 
+### Pre development
+I wrote out notes and created a flow chart.The aim is to provide early and continuous delivery of the project.
 
+![ccccp flow chart](/assets/images/flowchart.PNG)
 
 ## Features
 ## Existing Features
@@ -73,6 +75,23 @@ After user select the wrong choose the incorrect then the program shows the corr
 At the user will see the result of test and score.
 ![CI logo](/assets/images/score.PNG)
 
+## Technologies Used
+
+The main technology used to create this program is Python
+HTML and CSS to change the background and add social media links.
+Google API
+Google Sheets
+
+### Resources
+
+- Gitpod
+- GitHub 
+- Heroku
+- NCH software to create flow chart
+
+
+### Libraries
+[random](https://docs.python.org/3/library/random) 
 
 
 ## Future Updates
@@ -86,7 +105,9 @@ I have tested this project by doing the following :
 - Passed the code through a PEP8 linter and confirmed there is no problems.
 
 ![Check Result](/assets/images/Testing2.PNG)
-[here - TESTING](https://github.com/LimaZurmati/quiz_game/blob/main/TESTING.md)
+
+The portal has been well tested and the results can be viewed
+[here - Manual Testing](https://github.com/LimaZurmati/quiz_game/blob/main/TESTING.md)
 
 ## Bugs
 
@@ -117,6 +138,9 @@ The Application has been deployed from GitHub to Heroku by following the steps:
 7. Go to "Deploy" and select "GitHub" in "Deployment method"
 8. To connect Heroku app to your Github repository code enter your repository name, click 'Search' and then 'Connect' when it shows below.
 9.  Choose the branch you want to build your app from
+10. If preferred, click on "Enable Automatic Deploys", which keeps the app up to date with your GitHub repository
+11. Wait for the app to build. Once ready you will see the “App was successfully deployed” message and a 'View' button to take you to your deployed link
+
 
 The deployed project live link is [HERE](https://online-quiz-3a836d46c6c0.herokuapp.com/) - ***Use Ctrl (Cmd) and click to open in a new window.*** 
 
